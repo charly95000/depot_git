@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 li{
     list-style-type : none; /* On ne veut aucune puce */
     
@@ -140,6 +144,15 @@ input[type=submit]:hover{
 
 h1,h2,h3{
     font-family: 'Rubik Beastly', cursive;
+}
+
+footer{
+    background-color: #e3e3e3;
+    padding: 50px 0;
+}
+
+footer p{
+    text-align: center;
 }
 
 @media(max-width: 1400px){
